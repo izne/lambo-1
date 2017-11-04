@@ -1,0 +1,260 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D_ALT D1
+U 1 1 59F87BB3
+P 2400 2450
+F 0 "D1" V 2400 2550 50  0000 C CNN
+F 1 "D_ALT" H 2400 2350 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P12.70mm_Horizontal" H 2400 2450 50  0001 C CNN
+F 3 "" H 2400 2450 50  0001 C CNN
+	1    2400 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L D_ALT D2
+U 1 1 59F87BE5
+P 2400 2700
+F 0 "D2" H 2400 2800 50  0000 C CNN
+F 1 "D_ALT" H 2400 2600 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P12.70mm_Horizontal" H 2400 2700 50  0001 C CNN
+F 3 "" H 2400 2700 50  0001 C CNN
+	1    2400 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L D_ALT D3
+U 1 1 59F87C0D
+P 2400 3150
+F 0 "D3" H 2400 3250 50  0000 C CNN
+F 1 "D_ALT" H 2400 3050 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P12.70mm_Horizontal" H 2400 3150 50  0001 C CNN
+F 3 "" H 2400 3150 50  0001 C CNN
+	1    2400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_ALT D4
+U 1 1 59F87C39
+P 2400 3450
+F 0 "D4" H 2400 3550 50  0000 C CNN
+F 1 "D_ALT" H 2400 3350 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P12.70mm_Horizontal" H 2400 3450 50  0001 C CNN
+F 3 "" H 2400 3450 50  0001 C CNN
+	1    2400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C1
+U 1 1 59F87D0F
+P 3050 2950
+F 0 "C1" H 3075 3050 50  0000 L CNN
+F 1 "CP" H 3075 2850 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn" H 3088 2800 50  0001 C CNN
+F 3 "" H 3050 2950 50  0001 C CNN
+	1    3050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 59F87DCB
+P 3500 2950
+F 0 "C2" H 3525 3050 50  0000 L CNN
+F 1 "CP" H 3525 2850 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 3538 2800 50  0001 C CNN
+F 3 "" H 3500 2950 50  0001 C CNN
+	1    3500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C3
+U 1 1 59F87DFF
+P 4000 2950
+F 0 "C3" H 4025 3050 50  0000 L CNN
+F 1 "CP" H 4025 2850 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 4038 2800 50  0001 C CNN
+F 3 "" H 4000 2950 50  0001 C CNN
+	1    4000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 59F87F80
+P 2700 2950
+F 0 "R1" V 2780 2950 50  0000 C CNN
+F 1 "R" V 2700 2950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2630 2950 50  0001 C CNN
+F 3 "" H 2700 2950 50  0001 C CNN
+	1    2700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 59F87FC1
+P 3750 2700
+F 0 "R2" V 3830 2700 50  0000 C CNN
+F 1 "R" V 3750 2700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3680 2700 50  0001 C CNN
+F 3 "" H 3750 2700 50  0001 C CNN
+	1    3750 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 59F87FF1
+P 4000 2500
+F 0 "R3" V 4080 2500 50  0000 C CNN
+F 1 "R" V 4000 2500 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3930 2500 50  0001 C CNN
+F 3 "" H 4000 2500 50  0001 C CNN
+	1    4000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J1
+U 1 1 59F883DE
+P 1700 2700
+F 0 "J1" H 1700 2800 50  0000 C CNN
+F 1 "245 VAC" V 1800 2700 50  0000 C CNN
+F 2 "Connectors:1pin" H 1700 2700 50  0001 C CNN
+F 3 "" H 1700 2700 50  0001 C CNN
+	1    1700 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J2
+U 1 1 59F8849D
+P 1700 3450
+F 0 "J2" H 1700 3550 50  0000 C CNN
+F 1 "245 VAC" V 1800 3450 50  0000 C CNN
+F 2 "Connectors:1pin" H 1700 3450 50  0001 C CNN
+F 3 "" H 1700 3450 50  0001 C CNN
+	1    1700 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J4
+U 1 1 59F884F0
+P 4000 2150
+F 0 "J4" H 4000 2250 50  0000 C CNN
+F 1 "170 VDC" V 4100 2150 50  0000 C CNN
+F 2 "Connectors:1pin" H 4000 2150 50  0001 C CNN
+F 3 "" H 4000 2150 50  0001 C CNN
+	1    4000 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 J3
+U 1 1 59F88543
+P 3500 2150
+F 0 "J3" H 3500 2250 50  0000 C CNN
+F 1 "320 VDC" V 3600 2150 50  0000 C CNN
+F 2 "Connectors:1pin" H 3500 2150 50  0001 C CNN
+F 3 "" H 3500 2150 50  0001 C CNN
+	1    3500 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 J5
+U 1 1 59F8860B
+P 4450 2150
+F 0 "J5" H 4450 2250 50  0000 C CNN
+F 1 "GND" V 4550 2150 50  0000 C CNN
+F 2 "Connectors:1pin" H 4450 2150 50  0001 C CNN
+F 3 "" H 4450 2150 50  0001 C CNN
+	1    4450 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 2450 2250 2450
+Wire Wire Line
+	2000 2450 2000 3450
+Wire Wire Line
+	1900 3450 2250 3450
+Wire Wire Line
+	2200 2700 2200 3150
+Wire Wire Line
+	2550 2450 2550 2700
+Wire Wire Line
+	2550 3150 2550 3450
+Wire Wire Line
+	4450 2350 4450 3150
+Wire Wire Line
+	4000 2800 4000 2650
+Wire Wire Line
+	2700 2800 2700 2700
+Connection ~ 2700 2700
+Wire Wire Line
+	2700 3100 2700 3150
+Connection ~ 2700 3150
+Wire Wire Line
+	3050 2800 3050 2700
+Connection ~ 3050 2700
+Wire Wire Line
+	3050 3100 3050 3150
+Connection ~ 3050 3150
+Wire Wire Line
+	3500 2350 3500 2800
+Connection ~ 3500 2700
+Wire Wire Line
+	3500 3100 3500 3150
+Connection ~ 3500 3150
+Wire Wire Line
+	4000 3100 4000 3150
+Connection ~ 4000 3150
+Wire Wire Line
+	3900 2700 4000 2700
+Connection ~ 4000 2700
+Wire Wire Line
+	1900 2700 2250 2700
+Connection ~ 2000 3450
+Connection ~ 2200 2700
+Wire Wire Line
+	2200 3150 2250 3150
+Wire Wire Line
+	2550 2700 3600 2700
+Wire Wire Line
+	4450 3150 2550 3150
+$EndSCHEMATC

@@ -1,0 +1,25 @@
+Source,/Users/izne/Documents/LAMBO-1-SS-PSU.sch
+Kicad Rev,Eeschema 4.0.6
+Generated Date,Tuesday, 31 October 2017 17:47:03
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+D1,D_ALT,device,D_ALT
+D2,D_ALT,device,D_ALT
+D3,D_ALT,device,D_ALT
+D4,D_ALT,device,D_ALT
+C1,CP,device,CP
+C2,CP,device,CP
+C3,CP,device,CP
+R1,R,device,R
+R2,R,device,R
+R3,R,device,R
+J1,245 VAC,conn,CONN_01X01
+J2,245 VAC,conn,CONN_01X01
+J4,170 VDC,conn,CONN_01X01
+J3,320 VDC,conn,CONN_01X01
+J5,GND,conn,CONN_01X01
