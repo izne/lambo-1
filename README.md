@@ -1,2 +1,6 @@
 # lambo-1
-Single ended class A vaccum tube amplifier
+Vacuum tube audio (low frequency power) amplifier
+Class A single ended
+No negative feedback
+ECL 86 Pentode in Triode mode 
+Open Hardware
